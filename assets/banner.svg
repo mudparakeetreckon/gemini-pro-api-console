@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#101830;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" style="stop-color:#7c4dff;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#7c4dff;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#4fc3f7;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#7c4dff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#glow1)"/>
+  <rect width="1200" height="360" fill="url(#glow2)"/>
+
+  <!-- Decorative grid lines -->
+  <g opacity="0.05" stroke="#8b949e" stroke-width="0.5">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <line x1="800" y1="0" x2="800" y2="360"/>
+    <line x1="1000" y1="0" x2="1000" y2="360"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="80" r="60" fill="none" stroke="#4fc3f7" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="1050" cy="280" r="80" fill="none" stroke="#7c4dff" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="1100" cy="60" r="30" fill="none" stroke="#4fc3f7" stroke-width="0.5" opacity="0.08"/>
+  <circle cx="100" cy="300" r="45" fill="none" stroke="#7c4dff" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Decorative lines -->
+  <line x1="0" y1="330" x2="1200" y2="330" stroke="url(#lineGrad)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="300" cy="50" r="2" fill="#4fc3f7" opacity="0.15"/>
+  <circle cx="500" cy="320" r="1.5" fill="#7c4dff" opacity="0.2"/>
+  <circle cx="700" cy="40" r="1.5" fill="#4fc3f7" opacity="0.15"/>
+  <circle cx="900" cy="310" r="2" fill="#7c4dff" opacity="0.15"/>
+  <circle cx="250" cy="200" r="1" fill="#8b949e" opacity="0.1"/>
+  <circle cx="950" cy="150" r="1" fill="#8b949e" opacity="0.1"/>
+
+  <!-- Decorative path -->
+  <path d="M0 200 Q 300 160, 600 200 T 1200 180" fill="none" stroke="#4fc3f7" stroke-width="0.3" opacity="0.06"/>
+
+  <!-- Headline -->
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Gemini 2.0 Pro API Unlimited</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0" font-size="17.1">Console-style toolkit for developers building on the Gemini 2.0 Pro API — batch requests, stream logs, and ma…</tspan>
+  </text>
+</svg>
